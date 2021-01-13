@@ -15,4 +15,4 @@ def prime?(number)
   end
   true
 end
-#puts "#{prime?(number)}"
+puts "#{prime?(number)}"
