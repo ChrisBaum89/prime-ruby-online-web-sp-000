@@ -13,12 +13,9 @@ def prime?(number)
     i_f = i.to_f
     number_f = number.to_f
     num_divided = number_f/i_f
-    #puts "#{num_divided}"
-    #puts "#{(num_divided % 1).zero?}"
     if (num_divided % 1).zero? == true || number < 2
       return false
     end
   end
-  true
+  true #no falses returned, then it must be true
 end
-#puts "#{prime?(number)}"
