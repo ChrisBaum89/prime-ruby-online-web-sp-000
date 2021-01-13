@@ -3,4 +3,4 @@
 def prime?(number)
   number_array = [0..number]
 end
-#puts "#{prime?(number)}"
+puts "#{prime?(number)}"
