@@ -1,5 +1,5 @@
 # Add  code here!
-number = 1
+#number = 1
 def prime?(number)
   #determines if number is 1 or less because these cannot be prime numbers
   if number < 2
@@ -21,4 +21,4 @@ def prime?(number)
   end
   true
 end
-puts "#{prime?(number)}"
+#puts "#{prime?(number)}"
