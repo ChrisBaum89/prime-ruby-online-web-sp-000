@@ -1,10 +1,12 @@
 # Add  code here!
 number = 1
 def prime?(number)
-  puts "#{number}"
+  #determines if number is 1 or less because these cannot be prime numbers
   if number < 2
     return false
   end
+
+  #determine if number is divided by any numbers that are between 2 and the number
   last_divider_num = number - 1
   number_array = Array (2..last_divider_num)
   number_array.each do |i|
