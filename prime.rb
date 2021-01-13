@@ -9,7 +9,7 @@ def prime?(number)
     num_divided = number/i
     #puts "#{num_divided}"
     #puts "#{(num_divided % 1).zero?}"
-    if != (num_divided % 1).zero?
+    if (num_divided % 1).zero? == true
       return false
     end
   end
