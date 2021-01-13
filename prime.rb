@@ -1,7 +1,6 @@
 # Add  code here!
-require 'prime'
 #number = 1
 def prime?(number)
-  Prime.prime?(number)
+  number_array = [0..number]
 end
 #puts "#{prime?(number)}"
