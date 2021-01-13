@@ -14,4 +14,4 @@ def prime?(number)
     end
   end
 end
-#puts "#{prime?(number)}"
+puts "#{prime?(number)}"
