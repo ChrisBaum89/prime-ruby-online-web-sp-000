@@ -11,7 +11,7 @@ def prime?(number)
     #puts "#{(num_divided % 1).zero?}"
     if (num_divided % 1).zero?
       return true
-    end  
+    end
   end
 end
 #puts "#{prime?(number)}"
