@@ -2,6 +2,9 @@
 number = 1
 def prime?(number)
   puts "#{number}"
+  if number < 2
+    return false
+  end
   last_divider_num = number - 1
   number_array = Array (2..last_divider_num)
   number_array.each do |i|
